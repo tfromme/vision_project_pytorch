@@ -1,0 +1,5 @@
+.env/
+__pycache__
+pictures
+scaled_pictures
+output_model.pth
