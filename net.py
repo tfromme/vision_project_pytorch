@@ -12,6 +12,7 @@ class Net(nn.Module):
         self.pool = nn.MaxPool2d(2, 2)
         self.conv2 = nn.Conv2d(6, 16, 5)
         self.fc1 = nn.Linear(16 * 77 * 42, 1200)
+        # self.fc1 = nn.Linear(25872, 1200)
         self.fc2 = nn.Linear(1200, 84)
         self.fc3 = nn.Linear(84, 2)
 
